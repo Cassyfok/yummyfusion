@@ -1,0 +1,199 @@
+body {
+	padding: 0px;
+	margin: 0px;	
+}
+h2 {
+	clear: left;
+	color: black;
+	margin-left: 10px;
+	font-size: 50px;
+	font-weight: bold;
+}
+#body {
+	margin: 28px auto;
+	max-width: 900px;
+	min-width: 450px;
+	width: 93%;
+	font-family: Verdana, Arial, sans-serif;
+	background: #FFCC99;
+}
+#footer {
+	font-style: italic;
+	color: #999999;
+	padding: 5px;
+	font-size: 10px;
+	clear: both;
+	background-color:#FFCC99;
+    border-bottom-left-radius: 0px 0px;
+    border-bottom-right-radius: 0px 0px;
+    -moz-border-bottom-left-radius: 0px 0px;
+    -moz-border-bottom-right-radius: 0px 0px;
+    -webkit-border-bottom-left-radius: 15px 25px;
+    -webkit-border-bottom-right-radius: 15px 25px;
+	box-shadow: 0px 0px 0px lightgray;
+	-moz-box-shadow: 0px 0px 0px lightgray;
+	-webkit-box-shadow: 1px 1px 1px lightgray;
+}
+#footer {
+	color: #5C405C;
+}
+#header {
+	padding-top: 10px;
+	background-color: white;
+    border-top-left-radius: 0px 0px;
+    border-top-right-radius: 0px 0px;
+    -moz-border-top-left-radius: 20px 20px;
+    -moz-border-top-right-radius: 20px 20px;
+    -webkit-border-top-left-radius: 40px 30px;
+    -webkit-border-top-right-radius: 40px 30px;
+	box-shadow: 0px 0px 0px lightgray;
+	-moz-box-shadow: 1px 1px 1px lightgray;
+	-webkit-box-shadow: 1px 1px 1px lightgray;
+}
+#main {
+	margin-bottom: 15px;
+	margin-right: 10px;
+	width: 75%;
+	float: left;
+}
+#mainlogo {
+	margin-left: 20px;
+	margin-top: 18px;
+	margin-right: 25px;
+	float: left;
+}
+#navlinks {
+	background-color: #000000;
+	font-weight: bold;
+	line-height: 1px;
+	font-size: 12px;
+	padding-left: 3em;
+	padding-bottom: 1.5em;
+	padding-top: 1.5em;
+	margin: 0px;
+}
+#navlinks a {
+	text-decoration: none;
+	color: white;
+}
+#navlinks a.current {
+	color: #ffff66;
+}
+#navlinks a:hover {
+	text-decoration: underline overline;
+}
+#navlinks li {
+	padding-right: 0.75em;
+	border-right-color: #7f7f7f;
+	border-right-style: double;
+	margin-right: 0.75em;
+	list-style-type: none;
+	display: inline;
+}
+#navlinks li.last {
+	border-right-style: none;
+}
+#sidebar {
+	background-color: #ffffff;
+	font-size: 13px;
+	padding: 18px;
+	margin: 90px 4px 10px 75%;
+	border-style: solid;
+	border-color: #663300;
+	border-width: 5px;
+    border-radius: 10em 0 5em 2em;
+    -moz-border-radius: 10em 0 5em 2em;
+    -webkit-border-radius: 10em 0 0 2em;
+ /*   box-shadow: 4px 4px 4px #FFFFCC inset;
+    -moz-box-shadow: 4px 4px 4px #FFFFCC inset;
+    -webkit-box-shadow: 4px 4px 4px #5C405C inset;*/
+}
+
+#tagline {
+	color: #66523D;
+	text-align: center;
+	left: 410px;
+	font-style: italic;
+	font-size: 15px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#title {
+	color: #332933;
+	font-weight: bold;
+	font-size: 26px;
+   	margin: 19px 0;
+}
+#validator {
+	float: right;
+	border-width: 0px;
+}
+.dropcap {
+	font-family:Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: 50px;
+	text-align:right;
+	margin:5px;
+}
+.headline {
+	padding: 10px;
+}
+.product_thumb {
+	clear: left;
+	height: 90px;
+	width: 100px;
+	margin-bottom: 12px;	
+	margin-right: 12px;
+	padding: 5px;
+	float: left;
+	border-width: 1px;
+	border-color: #7f7f7f;
+	border-style: dashed;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0 0 5px 5px sienna;
+    -moz-box-shadow: 0 0 5px 5px sienna;
+    -webkit-box-shadow: 0 0 5px 5px sienna;
+}
+.product_desc {
+	line-height: 17px;
+	font-size: 12px;
+}
+.product_orderinfo {
+	text-align: right;
+	display: block;
+	padding: 3px;
+	font-size: 11px;
+	font-weight: bold;
+	color: white;
+	background-color: #1A141A;
+}
+.product_orderinfo a {
+	color: black;
+	background: white;
+	display: inline-block;
+	padding: 4px;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	margin: 3px;
+}
+.product_orderinfo a:hover {
+	background: #663300;
+}
+.productlink {
+	text-decoration: none;
+	color: #33141F;
+	font-style: italic;
+	font-size: 16px;
+}
+.productlink:hover {
+	text-decoration: underline overline;
+}
+.sidebarheading {
+	font-size: 18px;
+}
